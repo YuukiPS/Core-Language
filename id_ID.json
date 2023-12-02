@@ -144,7 +144,7 @@
 	"json_comment_info_launcher_tutorial_cn": "Jika Anda orang Tionghoa, Anda dapat mengikuti tutorial resmi di sini.",
 	"json_comment_info_gamedata_pc": "Jika belum mempunyai data game silahkan download (pilih full version jika belum mempunyai versi 4.0.0,3.8.0 full version), ingat setiap versi tidak bisa digunakan pada versi lain, jadi 3.2.0= ",
 	"json_comment_info_gamedata_pc_cn": "Sama seperti global. ",
-	"json_comment_info_gamedata_pc_oneclick": "Ini adalah data yang sudah dimodifikasi, jadi Anda hanya perlu mendownload semua bagiannya lalu ekstrak filenya (GI-3.2-PC-YuukiPS.zip) dimana saja lalu mainkan hanya dengan membuka `GenshinImpact.exe` ini tidak memerlukan proxy atau patch ",
+	"json_comment_info_gamedata_pc_oneclick": "Ini adalah paket yang sudah dimodifikasi, jadi Anda hanya perlu mendownload semua bagiannya lalu ekstrak filenya (GI-3.2-PC-YuukiPS.zip) dimana saja lalu mainkan hanya dengan membuka `GenshinImpact.exe` ini tidak memerlukan proxy atau patch ",
 	"json_comment_info_gamedata_pc_32": "Karena mihoyo telah menghapus file 3.2 dari server mereka, hanya tautan ini yang berfungsi untuk mengunduh klien game 3.2, Anda memerlukan ini untuk menjalankan GIO 3.2 versi lain karena 4.0/4.1 tidak akan berfungsi. ",
 	"json_comment_info_gamedata_android": "Jika mengunduh data di dalam game gagal, silakan gunakan ini untuk mengunduh manual."
 }
