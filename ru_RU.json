@@ -106,7 +106,7 @@
   "title_stats_tname": "ИМЯ",
   "title_stats_tonline": "ОНЛАЙН",
   "title_stats_tcpu": "CPU",
-  "title_stats_tram": "ОПЕРАТИВНАЯ ПАМЯТЬ",
+  "title_stats_tram": "RAM",
   "game_title_soon": "Будет доступно скоро...",
   "api_account_nopassword": "Нельзя установить пароль, так как пароль пуст",
   "api_account_password_invalid": "Пароль может содержать от 3 до 50 символов",
