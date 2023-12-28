@@ -147,4 +147,7 @@
 	"json_comment_info_gamedata_pc_oneclick": "Este es un paquete modificado, por lo que solo necesita descargar todas las partes, luego extraer el archivo (GI-3.2-PC-YuukiPS.zip) en cualquier lugar y luego jugar simplemente abriendo `GenshinImpact.exe`. No necesita un proxy ni parche. ",
 	"json_comment_info_gamedata_pc_32": "Debido a que MiHoYo eliminó el archivo 3.2 de su servidor, solo este enlace funciona para descargar el cliente del juego 3.2, lo necesita para ejecutar otras versiones de GIO 3.2, ya que 4.0/4.1 no funcionará. ",
 	"json_comment_info_gamedata_android": "Si falla la descarga de datos del juego, utilícela para la descarga manual."
+	"GMRetcode_617":"No se ha podido añadir este ítem ya que su inventario está lleno.",
+	"GMRetcode_-1":"Este comando es incorrecto o no se puede ejecutar.",
+	"GMRetcode_0": "¡Comando ejecutado con éxito!" 
 }
