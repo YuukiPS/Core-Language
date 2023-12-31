@@ -23,7 +23,7 @@
   "account_home_keyword": "YuukiPS",
   "account_home_announcement_header": "公告",
   "account_home_announcement_title": "哈喽！ {{name}}",
-  "account_home_announcement_description": "此页面仍在开发中, 待开发完毕后使用起来将会更简单。若要在私服上玩游戏，请使用｛｛username｝｝这个用户名登录到游戏中。",
+  "account_home_announcement_description": "此页面仍在开发中, 待开发完毕后使用起来将会更简单。若要在私服上玩游戏，请使用{{username}}这个用户名登录到游戏中。",
   "account_home_announcement_bt": "了解更多",
   "account_uid_home": "UID Account",
   "account_uid_player": "UID Player",
