@@ -1,4 +1,5 @@
 const fs = require('fs');
+const https = require('https');
 
 const originalFilePath = 'en_US.json';
 const targetLanguages = ['id_ID', 'zh_CN', 'es_ES', 'fr_FR', 'ja_JP', 'ko_KR', 'ru_RU', 'th_TH', 'vi_VN'];
@@ -8,59 +9,108 @@ let originalData = JSON.parse(fs.readFileSync(originalFilePath, 'utf8'));
 
 // Sort keys alphabetically in the original file
 originalData = Object.keys(originalData).sort().reduce((sortedData, key) => {
-  sortedData[key] = originalData[key];
-  return sortedData;
+    sortedData[key] = originalData[key];
+    return sortedData;
 }, {});
 
-// Iterate through target languages
-targetLanguages.forEach((targetLanguage) => {
-  const targetFilePath = `${targetLanguage}.json`;
+// Function to update target language file with translated values
+async function updateTargetFile(targetLanguage) {
+    const targetFilePath = `${targetLanguage}.json`;
 
-  // Check if the target file exists
-  if (fs.existsSync(targetFilePath)) {
     // Read the target file
-    let targetData = JSON.parse(fs.readFileSync(targetFilePath, 'utf8'));
+    let targetData = {};
 
-    // Remove keys in the target file that are not present in the original file
-    Object.keys(targetData).forEach((key) => {
-      if (!originalData.hasOwnProperty(key)) {
-        delete targetData[key];
-      }
-    });
+    if (fs.existsSync(targetFilePath)) {
+        targetData = JSON.parse(fs.readFileSync(targetFilePath, 'utf8'));
+
+        // Remove keys in the target file that are not present in the original file
+        Object.keys(targetData).forEach((key) => {
+            if (!originalData.hasOwnProperty(key)) {
+                delete targetData[key];
+            }
+        });
+    }
 
     // Merge and sort keys alphabetically
     const mergedData = { ...originalData, ...targetData };
     const sortedMergedData = Object.keys(mergedData).sort().reduce((sortedData, key) => {
-      sortedData[key] = mergedData[key];
-      return sortedData;
+        sortedData[key] = mergedData[key];
+        return sortedData;
     }, {});
 
     // Add missing keys to the target file with default value and tag
     Object.keys(originalData).forEach((key) => {
-      if (!targetData.hasOwnProperty(key)) {
-        sortedMergedData[key] = `${originalData[key]} (EN)`;
-      }
+        if (!targetData.hasOwnProperty(key)) {
+            sortedMergedData[key] = `${originalData[key]} (EN)`;
+        }
     });
+
+    // Update target file with translated values
+    for (const key of Object.keys(targetData)) {
+        if (targetData[key].includes('(EN)')) {
+            const untranslatedValue = targetData[key].replace('(EN)', '').trim();
+            const translatedValue = await translateText(untranslatedValue, 'en', targetLanguage);
+            sortedMergedData[key] = translatedValue + ` (EAN)`;
+        }
+    }
 
     // Write the updated data back to the target file
     fs.writeFileSync(targetFilePath, JSON.stringify(sortedMergedData, null, 2), 'utf8');
 
-    console.log(`Updated ${targetLanguage}.json`);
-  } else {
-    // If the target file doesn't exist, create it with default values from the original file
-    const defaultData = {};
-    Object.keys(originalData).forEach((key) => {
-      defaultData[key] = `${originalData[key]} (EN)`;
+    console.log(`Updated ${targetLanguage}.json with translated values`);
+}
+
+// Iterate through target languages and update files
+(async () => {
+    for (const targetLanguage of targetLanguages) {
+        await updateTargetFile(targetLanguage);
+    }
+
+    // Write the updated original data back to the original file
+    fs.writeFileSync(originalFilePath, JSON.stringify(originalData, null, 2), 'utf8');
+
+    console.log('Translation update complete.');
+})();
+
+// Function to translate text using Google Translate API
+async function translateText(text, fromLang, toLang) {
+    return new Promise((resolve, reject) => {
+        const options = {
+            hostname: 'translate.googleapis.com',
+            path: `/translate_a/single?client=gtx&sl=${fromLang}&tl=${toLang}&dt=t&q=${encodeURIComponent(text)}`,
+            method: 'GET',
+            headers: {
+                'Accept': '*/*',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0',
+            },
+        };
+
+        const req = https.request(options, (res) => {
+            let data = '';
+
+            res.setEncoding('utf8'); // for JP N CN
+
+            res.on('data', (chunk) => {
+                data += chunk;
+            });
+
+            res.on('end', () => {
+                try {
+                    const parsedData = JSON.parse(data);
+                    let text = '';
+                    parsedData[0].forEach(item => item[0] ? text += item[0] : '');
+                    // const translatedText = parsedData[0][0][0];
+                    resolve(text);
+                } catch (error) {
+                    reject(error);
+                }
+            });
+        });
+
+        req.on('error', (error) => {
+            reject(error);
+        });
+
+        req.end();
     });
-
-    // Write the default data to the new target file
-    fs.writeFileSync(targetFilePath, JSON.stringify(defaultData, null, 2), 'utf8');
-
-    console.log(`Created ${targetLanguage}.json with default values`);
-  }
-});
-
-// Write the updated original data back to the original file
-fs.writeFileSync(originalFilePath, JSON.stringify(originalData, null, 2), 'utf8');
-
-console.log('Translation update complete.');
+}
