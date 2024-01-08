@@ -21,6 +21,13 @@ targetLanguages.forEach((targetLanguage) => {
     // Read the target file
     let targetData = JSON.parse(fs.readFileSync(targetFilePath, 'utf8'));
 
+    // Remove keys in the target file that are not present in the original file
+    Object.keys(targetData).forEach((key) => {
+      if (!originalData.hasOwnProperty(key)) {
+        delete targetData[key];
+      }
+    });
+
     // Merge and sort keys alphabetically
     const mergedData = { ...originalData, ...targetData };
     const sortedMergedData = Object.keys(mergedData).sort().reduce((sortedData, key) => {
