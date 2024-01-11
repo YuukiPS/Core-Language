@@ -41,7 +41,7 @@ async function updateTargetFile(targetLanguage) {
     // Add missing keys to the target file with default value and tag
     Object.keys(originalData).forEach((key) => {
         if (!targetData.hasOwnProperty(key)) {
-            sortedMergedData[key] = `${originalData[key]} (EN)`;
+            sortedMergedData[key] = `${originalData[key]}(EN)`;
         }
     });
 
@@ -50,7 +50,13 @@ async function updateTargetFile(targetLanguage) {
         if (targetData[key].includes('(EN)')) {
             const untranslatedValue = targetData[key].replace('(EN)', '').trim();
             const translatedValue = await translateText(untranslatedValue, 'en', targetLanguage);
-            sortedMergedData[key] = translatedValue + ` (EAN)`;
+            sortedMergedData[key] = translatedValue + `(EAN)`;
+        }
+        
+        if(originalData[key].includes(`(UTO)`)){
+            const untranslatedValue = originalData[key].replace('(UTO)', '').trim();
+            const translatedValue = await translateText(untranslatedValue, 'en', targetLanguage);
+            sortedMergedData[key] = translatedValue + `(EAN)`;
         }
     }
 
