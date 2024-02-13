@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 
 const originalFilePath = 'en_US.json';
-const targetLanguages = ['id_ID', 'zh_CN', 'es_ES', 'fr_FR', 'ja_JP', 'ko_KR', 'ru_RU', 'th_TH', 'vi_VN'];
+const targetLanguages = ['id_ID', 'zh_CN', 'es_ES', 'fr_FR', 'ja_JP', 'ko_KR', 'ru_RU', 'th_TH', 'vi_VN', "in_HI"];
 
 // Read the original file
 let originalData = JSON.parse(fs.readFileSync(originalFilePath, 'utf8'));
@@ -80,6 +80,9 @@ async function updateTargetFile(targetLanguage) {
 
 // Function to translate text using Google Translate API
 async function translateText(text, fromLang, toLang) {
+    if(toLang == "in_HI"){
+        toLang = `hi` // idk why google
+    }
     return new Promise((resolve, reject) => {
         const options = {
             hostname: 'translate.googleapis.com',
