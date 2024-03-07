@@ -144,6 +144,8 @@
   "api_db_cdkey_nokey": "Le code de remboursement est incorrect ou introuvable(EAN)",
   "api_db_cdkey_notemplate": "Code d'utilisation d'erreur, aucun modèle de configuration trouvé(EAN)",
   "api_db_cdkey_ok": "Utiliser le code obtenu avec succès(EAN)",
+  "api_db_player_Server_nodatabase_name": "Non disponible !",
+  "api_db_player_server_nodatebase": "Aucun joueur trouvé dans la base de données.",
   "api_invaild_type_login1": "Type de connexion inconnu, veuillez contacter l'administrateur.",
   "api_password_notpass": "Retapez le mot de passe n'est pas le même que le mot de passe d'origine, essayez de saisir le mot de passe avec soin, assurez-vous qu'ils sont identiques.",
   "api_ratelimit_api_account": "Vous êtes actuellement temporairement incapable d'accéder à cette API car vous avez saisi trop de données de manière incorrecte ({{limit}}x), veuillez patienter encore {{mxinutes}} minutes.(EAN)",

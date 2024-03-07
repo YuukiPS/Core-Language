@@ -144,6 +144,8 @@
   "api_db_cdkey_nokey": "引き換えコードが間違っているか、見つかりません(EAN)",
   "api_db_cdkey_notemplate": "エラー引き換えコード、構成テンプレートが見つかりません(EAN)",
   "api_db_cdkey_ok": "引き換えコードが正常に取得されました(EAN)",
+  "api_db_player_Server_nodatabase_name": "利用不可！",
+  "api_db_player_server_nodatebase": "データベースにプレーヤーが見つかりません。",
   "api_invaild_type_login1": "不明なログイン タイプです。管理者に連絡してください。",
   "api_password_notpass": "パスワードを再入力します。元のパスワードと同じではありません。パスワードを慎重に入力し、同じであることを確認してください。",
   "api_ratelimit_api_account": "入力したデータが多すぎるため、現在一時的にこの API にアクセスできません ({{limit}}x)。さらに {{mxinutes}} 分間お待ちください。(EAN)",

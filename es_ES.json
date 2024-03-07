@@ -144,6 +144,8 @@
   "api_db_cdkey_nokey": "El código de canje es incorrecto o no se encuentra(EAN)",
   "api_db_cdkey_notemplate": "Error al canjear código, no se encontró ninguna plantilla de configuración(EAN)",
   "api_db_cdkey_ok": "Código de canje obtenido con éxito(EAN)",
+  "api_db_player_Server_nodatabase_name": "No disponible!",
+  "api_db_player_server_nodatebase": "No se encontró ningún jugador en la base de datos.",
   "api_invaild_type_login1": "Tipo de inicio de sesión desconocido, comuníquese con el administrador.",
   "api_password_notpass": "Volver a escribir la contraseña no es la misma que la contraseña original, intente escribir la contraseña con cuidado, asegúrese de que sean iguales.",
   "api_ratelimit_api_account": "Actualmente no puedes acceder temporalmente a esta API porque has ingresado demasiados datos incorrectamente ({{limit}}x), espera otros {{mxinutes}} minutos.(EAN)",
