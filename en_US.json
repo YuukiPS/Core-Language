@@ -144,6 +144,8 @@
   "api_db_cdkey_nokey": "Redemption code is incorrect or not found",
   "api_db_cdkey_notemplate": "Error redeem code, No config template found",
   "api_db_cdkey_ok": "Redeem code successfully obtained",
+  "api_db_player_Server_nodatabase_name": "Not Available!",
+  "api_db_player_server_nodatebase": "No player found in the database.",
   "api_invaild_type_login1": "Unknown login type, please contact admin.",
   "api_password_notpass": "Retype Password is not same as original password, try to type password carefully, make sure they are the same.",
   "api_ratelimit_api_account": "You are currently temporarily unable to access this API because you have entered too much data incorrectly ({{limit}}x), please wait another {{mxinutes}} minutes.",

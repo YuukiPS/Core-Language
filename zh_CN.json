@@ -144,6 +144,8 @@
   "api_db_cdkey_nokey": "兑换码不正确或未找到(EAN)",
   "api_db_cdkey_notemplate": "兑换代码错误，未找到配置模板(EAN)",
   "api_db_cdkey_ok": "兑换码成功获取(EAN)",
+  "api_db_player_Server_nodatabase_name": "不可用！",
+  "api_db_player_server_nodatebase": "在数据库中未找到玩家。",
   "api_invaild_type_login1": "未知的登录类型,请联系管理员.",
   "api_password_notpass": "重新输入密码与原始密码不同, 请认真输入密码, 确保其相同。",
   "api_ratelimit_api_account": "您目前暂时无法访问此 API，因为您错误输入的数据过多 ({{limit}}x)，请再等待 {{mxinutes}} 分钟。(EAN)",

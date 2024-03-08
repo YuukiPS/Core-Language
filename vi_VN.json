@@ -144,6 +144,8 @@
   "api_db_cdkey_nokey": "Mã đổi quà không chính xác hoặc không tìm thấy(EAN)",
   "api_db_cdkey_notemplate": "Lỗi đổi mã, Không tìm thấy mẫu cấu hình(EAN)",
   "api_db_cdkey_ok": "Mã đổi quà đã được lấy thành công(EAN)",
+  "api_db_player_Server_nodatabase_name": "Không có sẵn!",
+  "api_db_player_server_nodatebase": "Không tìm thấy người chơi trong cơ sở dữ liệu.",
   "api_invaild_type_login1": "Loại đăng nhập không xác định, vui lòng liên hệ với quản trị viên.",
   "api_password_notpass": "Nhập lại Mật khẩu không giống với mật khẩu ban đầu, hãy thử nhập mật khẩu cẩn thận, đảm bảo chúng giống nhau.",
   "api_ratelimit_api_account": "Hiện tại, bạn tạm thời không thể truy cập API này vì bạn đã nhập sai quá nhiều dữ liệu ({{limit}}x), vui lòng đợi thêm {{mxinutes}} phút nữa.(EAN)",

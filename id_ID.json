@@ -144,6 +144,8 @@
   "api_db_cdkey_nokey": "Kode penukaran salah atau tidak ditemukan.",
   "api_db_cdkey_notemplate": "Tidak ditemukan template konfigurasi.",
   "api_db_cdkey_ok": "Kode penukaran berhasil diperoleh.",
+  "api_db_player_Server_nodatabase_name": "Tidak Tersedia!",
+  "api_db_player_server_nodatebase": "Pemain tidak ditemukan dalam database.",
   "api_invaild_type_login1": "Jenis login tidak diketahui, silakan hubungi admin.",
   "api_password_notpass": "Ketik Ulang Kata Sandi tidak sama dengan kata sandi asli, usahakan mengetikkan kata sandi dengan hati-hati, pastikan sama.",
   "api_ratelimit_api_account": "Saat ini Anda untuk sementara tidak dapat mengakses API ini karena memasukkan terlalu banyak data yang salah ({{limit}}x), harap tunggu lagi {{mxinutes}} menit.",
