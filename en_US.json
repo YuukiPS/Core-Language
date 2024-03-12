@@ -134,6 +134,7 @@
   "api_db_account_unlink_faild": "Failed, revoked third party login",
   "api_db_account_unlink_ok": "Successful, revoked third party login",
   "api_db_account_update_ok": "Successfully updated account",
+  "api_db_account_banned": "Account banned for reasons: {{reason}}",
   "api_db_cdkey_close": "This redeem code is not ready yet",
   "api_db_cdkey_dberror": "This redemption code cannot be used due to a database error",
   "api_db_cdkey_emptykey": "Redemption code is empty, please fill in it",
