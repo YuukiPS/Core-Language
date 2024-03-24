@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "サーバーがダウンしている可能性があるため、このコマンドは実行できません (EAN)",
   "api_cmd_player_unknown": "このコマンドは不明です。管理者に報告してください。 (EAN)",
   "api_cmd_remote_noset": "Web コマンドまたはボットにアクセスするには、コードを入力してください。https://ps.yuuki.me/blog/documentation/cmd の指示に従ってください。(EAN)",
+  "api_create_baduser": "ネットワークが不良です。モデムまたは携帯電話を再起動してください。(EAN)",
   "api_db_account_banned": "アカウントは次の理由により禁止されました: {{reason}}(EAN)",
   "api_db_account_duplication_registered_uid": "このアカウント UID はすでに使用されています。別の UID でアカウントを作成してみてください(EAN)",
   "api_db_account_duplication_registered_username": "ユーザー名が既に使われています。(EAN)",

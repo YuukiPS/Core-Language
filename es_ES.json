@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "Este comando no se puede ejecutar quizás porque el servidor está inactivo (EAN)",
   "api_cmd_player_unknown": "Este comando es desconocido, intenta informarlo al administrador. (EAN)",
   "api_cmd_remote_noset": "Para acceder a los comandos web o al bot, ingrese el código. Siga las instrucciones en https://ps.yuuki.me/blog/documentation/cmd(EAN)",
+  "api_create_baduser": "Mala red, intenta reiniciar tu módem o tu teléfono(EAN)",
   "api_db_account_banned": "Cuenta prohibida por motivos: {{reason}}(EAN)",
   "api_db_account_duplication_registered_uid": "Este UID de cuenta ya está en uso. Intente crear una cuenta con un UID diferente.(EAN)",
   "api_db_account_duplication_registered_username": "El nombre de usuario ya está en uso.(EAN)",

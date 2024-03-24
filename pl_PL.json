@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "Tego polecenia nie można wykonać, być może z powodu awarii serwera",
   "api_cmd_player_unknown": "To polecenie jest nieznane, spróbuj zgłosić je administratorowi",
   "api_cmd_remote_noset": "Aby uzyskać dostęp do poleceń web lub bota, wprowadź kod. Postępuj zgodnie z instrukcjami na stronie https://ps.yuuki.me/blog/documentation/cmd",
+  "api_create_baduser": "Zła sieć. Spróbuj ponownie uruchomić modem lub telefon(EAN)",
   "api_db_account_banned": "Konto zostałe zbanowane. Powód: {{reason}}",
   "api_db_account_duplication_registered_uid": "Ten UID konta jest już używany. Spróbuj utworzyć konto z innym UID(EAN)",
   "api_db_account_duplication_registered_username": "Nazwa użytkownika jest już w użyciu.(EAN)",

@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "Cette commande ne peut pas être exécutée, peut-être parce que le serveur est en panne (EAN)",
   "api_cmd_player_unknown": "Cette commande est inconnue, essayez de la signaler à l'administrateur (EAN)",
   "api_cmd_remote_noset": "Pour accéder aux commandes Web ou au bot, veuillez saisir le code, suivez les instructions sur https://ps.yuuki.me/blog/documentation/cmd(EAN)",
+  "api_create_baduser": "Mauvais réseau, essayez de redémarrer votre modem ou votre téléphone(EAN)",
   "api_db_account_banned": "Compte banni pour les raisons suivantes : {{reason}}(EAN)",
   "api_db_account_duplication_registered_uid": "L'UID de ce compte est déjà utilisé. Essayez de créer un compte avec un autre UID.(EAN)",
   "api_db_account_duplication_registered_username": "Nom d'utilisateur est déjà utilisé.(EAN)",

@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "คำสั่งนี้ไม่สามารถดำเนินการได้ อาจเป็นเพราะเซิร์ฟเวอร์ล่ม (EAN)",
   "api_cmd_player_unknown": "ไม่ทราบคำสั่งนี้ ลองรายงานให้ผู้ดูแลระบบทราบ (EAN)",
   "api_cmd_remote_noset": "หากต้องการเข้าถึงคำสั่งเว็บหรือบอท กรุณากรอกโค้ด ทำตามคำแนะนำที่ https://ps.yuuki.me/blog/documentation/cmd(EAN)",
+  "api_create_baduser": "เครือข่ายไม่ดี ลองรีสตาร์ทโมเด็มหรือโทรศัพท์ของคุณ(EAN)",
   "api_db_account_banned": "บัญชีถูกแบนด้วยเหตุผล: {{reason}}(EAN)",
   "api_db_account_duplication_registered_uid": "UID ของบัญชีนี้มีการใช้งานแล้ว ลองสร้างบัญชีด้วย UID อื่น(EAN)",
   "api_db_account_duplication_registered_username": "ชื่อผู้ใช้นี้ถูกใช้แล้ว.(EAN)",

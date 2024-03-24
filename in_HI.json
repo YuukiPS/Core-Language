@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "शायद सर्वर डाउन होने के कारण यह आदेश निष्पादित नहीं किया जा सकता",
   "api_cmd_player_unknown": "यह आदेश अज्ञात है, इसे व्यवस्थापक को रिपोर्ट करने का प्रयास करें",
   "api_cmd_remote_noset": "वेब कमांड या बॉट तक पहुंचने के लिए कृपया कोड दर्ज करें, https://ps.yuuki.me/blog/documentation/cmd पर दिए गए निर्देशों का पालन करें।(EAN)",
+  "api_create_baduser": "ख़राब नेटवर्क, अपने मॉडेम या फ़ोन को पुनः प्रारंभ करने का प्रयास करें(EAN)",
   "api_db_account_banned": "इन कारणों से खाता प्रतिबंधित किया गया: {{कारण}}(EAN)",
   "api_db_account_duplication_registered_uid": "यह खाता यूआईडी पहले से ही उपयोग में है, किसी भिन्न यूआईडी के साथ एक खाता बनाने का प्रयास करें(EAN)",
   "api_db_account_duplication_registered_username": "उपयोगकर्ता का नाम पहले से ही उपयोग किया जा रहा है।(EAN)",

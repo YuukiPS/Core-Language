@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "Эту команду невозможно выполнить, возможно, сервер не работает. (EAN)",
   "api_cmd_player_unknown": "Эта команда неизвестна, попробуйте сообщить об этом администратору. (EAN)",
   "api_cmd_remote_noset": "Чтобы получить доступ к веб-командам или боту, введите код. Следуйте инструкциям на странице https://ps.yuuki.me/blog/documentation/cmd.(EAN)",
+  "api_create_baduser": "Плохая сеть, попробуйте перезагрузить модем или телефон.(EAN)",
   "api_db_account_banned": "Аккаунт заблокирован по причине: {{reason}}(EAN)",
   "api_db_account_duplication_registered_uid": "UID этой учетной записи уже используется. Попробуйте создать учетную запись с другим UID.(EAN)",
   "api_db_account_duplication_registered_username": "Имя пользователя уже используется.(EAN)",

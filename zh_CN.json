@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "该命令可能无法执行，因为服务器已关闭 (EAN)",
   "api_cmd_player_unknown": "该命令未知，请尝试向管理员报告 (EAN)",
   "api_cmd_remote_noset": "要访问网络命令或机器人，请输入代码，按照 https://ps.yuuki.me/blog/documentation/cmd 中的说明进行操作(EAN)",
+  "api_create_baduser": "网络不好，请尝试重新启动调制解调器或手机(EAN)",
   "api_db_account_banned": "帐户因以下原因被禁止：{{reason}}(EAN)",
   "api_db_account_duplication_registered_uid": "该帐户 UID 已被使用，请尝试使用其他 UID 创建帐户(EAN)",
   "api_db_account_duplication_registered_username": "用户名已存在。(EAN)",

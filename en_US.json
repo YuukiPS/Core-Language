@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "This command cannot be executed perhaps because the server is down",
   "api_cmd_player_unknown": "This command is unknown, try reporting it to admin",
   "api_cmd_remote_noset": "To access web commands or bot please enter code, Follow instructions at https://ps.yuuki.me/blog/documentation/cmd",
+  "api_create_baduser": "Bad network, try restarting your modem or your phone",
   "api_db_account_banned": "Account banned for reasons: {{reason}}",
   "api_db_account_duplication_registered_uid": "This account UID is already in use, try creating an account with a different UID",
   "api_db_account_duplication_registered_username": "Username is already in use.",

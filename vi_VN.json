@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "Lệnh này không thể thực thi được có lẽ do máy chủ bị hỏng (EAN)",
   "api_cmd_player_unknown": "Lệnh này không rõ, thử báo lại cho admin xem (EAN)",
   "api_cmd_remote_noset": "Để truy cập lệnh web hoặc bot vui lòng nhập mã, Làm theo hướng dẫn tại https://ps.yuuki.me/blog/documentation/cmd(EAN)",
+  "api_create_baduser": "Mạng kém, hãy thử khởi động lại modem hoặc điện thoại của bạn(EAN)",
   "api_db_account_banned": "Tài khoản bị cấm vì lý do: {{reason}}(EAN)",
   "api_db_account_duplication_registered_uid": "UID tài khoản này đã được sử dụng, hãy thử tạo một tài khoản bằng UID khác(EAN)",
   "api_db_account_duplication_registered_username": "Tên đăng nhập đã được sử dụng.(EAN)",

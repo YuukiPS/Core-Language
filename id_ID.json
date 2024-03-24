@@ -97,6 +97,7 @@
   "api_cmd_player_timeout": "Perintah ini tidak dapat dijalankan mungkin karena server sedang down",
   "api_cmd_player_unknown": "Perintah ini tidak diketahui, coba laporkan ke admin",
   "api_cmd_remote_noset": "Untuk mengakses perintah web atau bot silakan masukkan kode, Ikuti instruksi di https://ps.yuuki.me/blog/documentation/cmd",
+  "api_create_baduser": "Jaringan buruk, coba mulai ulang modem atau ponsel Anda",
   "api_db_account_banned": "Akun diblokir karena alasan: {{reason}}",
   "api_db_account_duplication_registered_uid": "UID akun ini sudah digunakan, coba buat akun dengan UID lain",
   "api_db_account_duplication_registered_username": "Nama pengguna telah digunakan.",
