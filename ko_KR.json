@@ -241,7 +241,7 @@
   "point_home_info2": "그것을 얻는 방법(EAN)",
   "point_home_info2r1": "무료: '포인트 받기'를 클릭하여 '광고 건너뛰기'만 완료하면 됩니다. 처음으로 도전에 성공하면 10포인트를 획득하고 이후에는 무작위로 1~10포인트를 획득합니다.(EAN)",
   "point_home_info2r2": "스폰서: 매월 100포인트, <a target='_blank' href='/sponsor'>월간 스폰서로 최소 5$를 구독</a>하고 '광고 건너뛰기'를 할 때마다 무작위로 1~10 포인트를 받게 됩니다. 얻을 확률이 더 높은 포인트입니다.(EAN)",
-  "point_home_info2r3": "Discord: <a target='_blank' href='https://discord.gg/yuukips'>Discord에 가입</a>하고 채널(#Bot)을 찾은 다음 `/freepoint`를 입력하면 매주 5포인트를 얻을 수 있습니다. , 서버를 부스트하시면 매주 10포인트를 얻으실 수 있습니다(기억하세요: 이 작업을 수행하기 전에 <a target='_blank' href='/account/home'>DISCORD 계정을 연결하세요)</a>. 서버를 강화하고 싶다면 해당 명령을 입력하기 전에 먼저 수행하십시오. 매주 다시 수행할 수 있기 때문입니다.)(EAN)",
+  "point_home_info2r3": "Discord: <a target='_blank' href='https://discord.gg/yuukips'>Discord에 가입하세요</a>. <a target='_blank' href='https://canary.discord.com/channels/964119462188040202/1223662433772507217'>채널 #freepoint</a>",
   "point_home_info3": "광고 시청 / 광고 건너뛰기(EAN)",
   "point_home_info3r1": "포인트 받기(EAN)",
   "point_home_info3r2": "'포인트 받기'를 클릭하면 광고 제공업체의 웹사이트로 이동됩니다. 거기에서 그들의 지시를 따를 수 있습니다. 성공하면 여기로 다시 연결되고 포인트를 받게 됩니다.(EAN)",

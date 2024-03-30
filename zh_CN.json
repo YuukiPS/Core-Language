@@ -241,7 +241,7 @@
   "point_home_info2": "如何获得(EAN)",
   "point_home_info2r1": "免费：您只需点击“获取积分”即可完成“跳过广告”。首次挑战成功，将获得10点积分，之后将获得1-10点随机积分(EAN)",
   "point_home_info2r2": "赞助商：每月 100 积分，如果您<a target='_blank' href='/sponsor'>每月向赞助商订阅至少 5 美元</a>，并且每次“跳过广告”时，您将获得随机 1-10 点获得概率较高的点。(EAN)",
-  "point_home_info2r3": "Discord：<a target='_blank' href='https://discord.gg/yuukips'>加入我们的 Discord</a>，找到频道 (#Bot) 然后输入 `/freepoint` 您每周将获得 5 积分，如果您提升我们的服务器，您每周将获得 10 积分（请记住：在执行此操作之前<a target='_blank' href='/account/home'>请关联您的 DISCORD 帐户）</a>，如果您想要增强我们的服务器，请在输入该命令之前先执行此操作，因为您只能每周执行一次）(EAN)",
+  "point_home_info2r3": "Discord：<a target='_blank' href='https://discord.gg/yuukips'>加入我们的 Discord</a>，找到<a target='_blank' href='https://canary.discord.com/channels/964119462188040202/1223662433772507217'>频道#freepoint</a>",
   "point_home_info3": "观看广告/跳过广告(EAN)",
   "point_home_info3r1": "获取积分(EAN)",
   "point_home_info3r2": "单击“获取积分”后，您将被引导至广告提供商的网站。在那里您可以按照他们的指示进行操作。如果成功，您将被引导回到此处并获得积分。(EAN)",
