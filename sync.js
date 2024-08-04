@@ -111,7 +111,8 @@ async function translateText(text, fromLang, toLang) {
                     // const translatedText = parsedData[0][0][0];
                     resolve(text);
                 } catch (error) {
-                    reject(error);
+                    //reject(error);
+                    resolve(text);
                 }
             });
         });
