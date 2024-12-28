@@ -21,7 +21,12 @@ async function updateTargetFile(targetLanguage) {
     let targetData = {};
 
     if (fs.existsSync(targetFilePath)) {
-        targetData = JSON.parse(fs.readFileSync(targetFilePath, 'utf8'));
+        try {
+            targetData = JSON.parse(fs.readFileSync(targetFilePath, 'utf8'));
+        } catch (error) {
+            console.log(`Error load ${targetFilePath}`,error)            
+        }
+        
 
         // Remove keys in the target file that are not present in the original file
         Object.keys(targetData).forEach((key) => {
