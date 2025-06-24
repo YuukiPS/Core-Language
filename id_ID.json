@@ -47,7 +47,7 @@
   "account_home_password_infosave": "Biarkan kosong atau jangan diubah jika tidak ingin diubah.<br>Jika Anda tidak memiliki kata sandi saat ini (Dalam Web), biarkan kosong.",
   "account_home_password_web": "Kata Sandi (Dalam Web)",
   "account_home_password_web2": "Kata Sandi Saat Ini (Dalam Web)",
-  "account_home_relogin_ingame": "Anda memiliki waktu <time data-now='{{login}}' data-type='sec'>???</time> untuk melakukan login (di dalam permainan). Jika waktu habis, Anda harus mengizinkan login di dalam permainan lagi, dengan mengklik tombol di bawah ini:",
+  "account_home_relogin_ingame": "Anda memiliki waktu <time data-now='{{login}}' data-type='utcNumber'>???</time> untuk melakukan login (di dalam permainan). Jika waktu habis, Anda harus mengizinkan login di dalam permainan lagi, dengan mengklik tombol di bawah ini:",
   "account_home_relogin_ingame_info": "Setelah diizinkan untuk masuk ke dalam permainan, Anda memiliki waktu 2-5 menit untuk menyelesaikan proses login ke dalam permainan. Jika orang lain telah masuk sebelum Anda selama waktu masih berjalan, akun Anda akan terkunci dan Anda harus melakukannya lagi. Ini berguna untuk mencegah orang lain masuk ke dalam permainan karena tidak ada fungsi kata sandi saat Anda masuk ke dalam permainan, artinya setiap kata sandi akan berfungsi.",
   "account_home_save": "Simpan",
   "account_home_signature": "Signature",
